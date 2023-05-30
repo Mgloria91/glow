@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derad Modelling Class</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    
+  </nav>
+  
+    <header class="bg-pink-600 text-black sticky top-0 z-10">
+        <section class="max-w-d-4xl mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-3xl font-medium">
+                <a href="#hero"> 💃Derad Modelling Class</a>
+            </h1>
+        
+                <div class="hidden md:flex items-center space-x-1">
+                    <!-- Primary Navbar items -->
+						<div class="hidden md:flex items-center space-x-1">
+							<a href="" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold "> Our Classes</a>
+                            <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
+							<a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact US</a>
+						</div>
+					</div>
+					<!-- Mobile menu button -->
+					<div class="md:hidden flex items-center">
+						<button class="outline-none mobile-menu-button">
+						<svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+							x-show="!showMenu"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+					</div>
+				</div>
+			</div>
+			<!-- mobile menu -->
+			<div class="hidden mobile-menu">
+				<ul class="">
+					<li class="active"><a href="classes" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold"> Our Classes</a></li>
+                    <li class="active"><a href="about" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">About</a></li>
+                    <li class="active"><a href="contact" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Contact Us</a></li>
+				</ul>
+			</div>
+			<script>
+				const btn = document.querySelector("button.mobile-menu-button");
+				const menu = document.querySelector(".mobile-menu");
+
+				btn.addEventListener("click", () => {
+					menu.classList.toggle("hidden");
+				});
+			</script>
+                </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main class="max-w-4xl max-auto">
+         <section id="hero" class="flex flex-col-reverse justify-center sm:flex-row p-6 item-center gap-8 mb-12 scroll-t-40">
+            <article class="sm:w-1/2">
+                <h2 class="max-w-md-text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
+                    We Teach With Passion To Make <span class="text-rose-800 hover:text-rose-400">You</span> A Better Modell...
+                </h2>
+                <p class="max w md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+                    We teach both adults and children we don't specify come 
+                    and try our new skill to make you a better person and a better modell... 
+                </p>
+                <p class="max w md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+                   Modelling is passionate...!
+                </p>
+            </article> 
+            <img class="w-1/2" src="./img/girl3.jpg"alt="Derad Dab">
+         </section>
+         <hr class="mx-auto bg-black dark:bg-white w-1/2">
+         <section id="classes" class="p-6 my-12">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white dark:bg-black">
+                Our Classes
+            </h2>
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+            <li class=" w-1/2 sm:w-2/3 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-pink-300 py-6 px-2 rounded-3xl shadow-xl">
+                <img src="./img/time.png" class="w-1/2 mb-6" alt="Time">
+                <h3 class="text 3xl center text-slate-900 dark:text-black">CLASSES FOR YOU!</h3>
+            </li>
+            </ul> 
+         </section>
+         <hr class="mx-auto bg-black dark:bg-white w-1/2">
+         <section id="about" class="p-6 my-12">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white dark:bg-black">
+                About
+            </h2>
+            <figure class="my-12">
+                <blockquote class="bg-rose-500 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p class="text-2xl sm:text-3xl text-left mt-2 text-black dark:text-slate-400 before:content-['\201C'] 
+                    before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-black 
+                    before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] 
+                    after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-black 
+                    after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"> 
+                 "Derad makes you a good model has sparked numerous debates in the beauty industry.
+                   But, contrary to what most people believe, there’s no one-size-fits-all in modeling.
+                   For one, not all models are tall and skinny, and certainly, not everyone who appears 
+                   attractive by conventional standards is automatically cut out for modeling.
+                   So then, what makes a good model? We’ve listed some of these qualities below."
+
+                </p> 
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500
+                  dark:text-slate-600">
+                    &#8212;Derad C, 301 room, Genius Hall               
+                </figcaption>
+            </figure>
+            <figure class="my-12">
+                <blockquote class="bg-rose-500 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p class="text-2xl sm:text-3xl text-left mt-2 text-black dark:text-slate-400 before:content-['\201C'] 
+                    before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-black 
+                    before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] 
+                    after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-black 
+                    after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"> 
+                 "As obvious as it may seem, being confident as a model is something not just 
+                 anyone can pull off. This trait covers everything from how you carry yourself to how you strike poses, 
+                 and even interact with others.Being confident in your abilities as a model can be learned, 
+                 and it takes hard work and good practice."
+
+                </p> 
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500
+                  dark:text-slate-600">
+                    &#8212;Derad C, 301 room, Genius Hall               
+                </figcaption>
+            </figure>
+            <figure class="my-12">
+                <blockquote class="bg-rose-500 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p class="text-2xl sm:text-3xl text-left mt-2 text-black dark:text-slate-400 before:content-['\201C'] 
+                    before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-black 
+                    before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] 
+                    after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-black 
+                    after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"> 
+                 "Top models who have perfected the art of striking killer poses came from Derad. 
+                 They most certainly had to work their way through it, growing better every day with practice and 
+                 study.As a beginner model, posing and experimenting from various angles can get awkward. 
+                 However, if you’ve ever been unsure of how to pose for a photograph, here are a few basic pointers."
+
+                </p> 
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500
+                  dark:text-slate-600">
+                    &#8212;Derad C, 301 room, Genius Hall               
+                </figcaption>
+            </figure>
+        </section> 
+         <hr class="mx-auto bg-black dark:bg-white w-1/2">  
+         <section id="contact" class="p-6 my-12 scroll-mt-16">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+               Contact Us
+            </h2>
+            <form action="" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex:col items-left gap-4">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required minlength="3" maxlength="60"
+                placeholder="Your Subject" class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border 
+                border-solid border-slate-900 dark:boreder-none" />
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"
+                requires class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border 
+                border-solid border-slate-900 dark:boreder-none"></textarea>
+                <button class="bg-rose-800 hover:bg-rose-600 active:bg-rose-500 text-black p-3 w-48 rounded-xl
+                border border-solid border-slate-900 dark:border:none">Submitt</button> 
+
+            </form>
+         </section>  
+         <hr class="mx-auto bg-pink-black dark:bg-white w-1/2">
+        
+        </main>
+</body>
+</html>
